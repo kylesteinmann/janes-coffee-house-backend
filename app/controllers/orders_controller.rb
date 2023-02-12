@@ -9,6 +9,7 @@ class OrdersController < ApplicationController
   # end
 
   # # GET /orders/1
+
   # def show
   #   render json: @order
   # end
@@ -17,7 +18,7 @@ class OrdersController < ApplicationController
   def create
     @order = Order.new(order_params)
     
-    # render Order.result
+    render Order.result
   end
 
   #  
