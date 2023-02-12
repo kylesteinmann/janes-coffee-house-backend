@@ -17,7 +17,7 @@ class OrdersController < ApplicationController
   def create
     @order = Order.new(order_params)
     
-    render Order.result
+    # render Order.result
   end
 
   #  
